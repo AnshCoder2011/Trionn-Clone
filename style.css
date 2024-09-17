@@ -1,0 +1,916 @@
+@font-face {
+  font-family: yoyo;
+  src: url(./dirtyline-36daysoftype-2022.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+::selection {
+  background-color: #121315;
+  color: #c5fcfc;
+}
+
+::-webkit-scrollbar {
+  width: 0.1px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: yoyo;
+  color: #e0eeee;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.cursor {
+  height: 20px;
+  width: 20px;
+  background-color: #c5fcfc;
+  border-radius: 50%;
+  position: fixed;
+  font-size: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  align-items: center;
+  z-index: 9;
+}
+
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #121315;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+  padding-top: 2.3rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #121315;
+}
+
+.sticky {
+  position: sticky;
+  top: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.mid img {
+  filter: invert();
+  width: 11.5px;
+  height: 11.5px;
+  display: flex;
+}
+
+.mid .circ {
+  border: 1px solid #e0eeee;
+  border-radius: 20px;
+  padding: 7px;
+  margin-left: 0.5rem;
+  border: none;
+  background-color: #292a2d;
+}
+
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5.9vw;
+  font-weight: 100;
+  line-height: 68px;
+}
+
+.hero h4 {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 0.8vw;
+  line-height: -5px;
+}
+
+.arrow center i {
+  color: #b2c9c9;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  padding-top: 5.2px;
+  border: 0.5px solid #b2c9c9;
+}
+
+.background-text .left,
+.background-text .right {
+  position: relative;
+  /* or absolute depending on your layout */
+}
+
+.background-text .left,
+.background-text .right {
+  opacity: 1;
+  visibility: visible;
+}
+
+.page6 .background-text .left,
+.page6 .background-text .right {
+  transition: none;
+}
+
+.page6 {
+  overflow-x: hidden;
+}
+
+.banner {
+  justify-content: space-between;
+}
+
+.btn {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #c5fcfc;
+  padding: 18px 14px;
+  border-radius: 20000px;
+  width: 171px;
+  transition: all ease 0.8s;
+  text-align: center;
+  color: #c5fcfc;
+}
+
+.btn10 {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #c5fcfc;
+  padding: 18px 14px;
+  background-color: #c5fcfc;
+  border-radius: 20000px;
+  width: 171px;
+  transition: all ease 0.8s;
+  text-align: center;
+  color: #1a1a1a;
+  position: absolute;
+  top: 92%;
+  left: 80%;
+}
+
+.btn {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #c5fcfc;
+  padding: 18px 14px;
+  border-radius: 20000px;
+  width: 171px;
+  transition: all ease 0.8s;
+  text-align: center;
+  color: #c5fcfc;
+}
+
+/* .btn:hover {
+  height: 8.542vw;
+  width: 8.542vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 50px 10px #c5fcfc;
+  transition: all ease 0.8s;
+  background-color: #c5fcfc;
+  color: #1a1a1a;
+  filter: blur(10px);
+  border-radius: 50%;
+} */
+
+.video video {
+  width: 181px;
+  border-radius: 400px;
+  position: absolute;
+  top: 80%;
+  left: 43.5%;
+}
+
+.page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #121315;
+}
+
+.page3 {
+  height: 82vh;
+  width: 100%;
+  background-color: #121315;
+  padding-top: 8.5rem;
+}
+
+.page3 h1 {
+  font-size: 9.938vw;
+  font-weight: 100;
+  line-height: 115px;
+  padding-left: 4.8rem;
+}
+
+.page9 h1 {
+  font-size: 9.938vw;
+  font-weight: 100;
+  line-height: 115px;
+  padding-left: 4.8rem;
+}
+
+.page6 h1 {
+  font-size: 9.938vw;
+  font-weight: 100;
+  line-height: 115px;
+  padding-left: 4.8rem;
+}
+
+#space {
+  padding-top: 5vw;
+}
+
+.page3 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 4.8rem;
+  font-size: 1.875rem;
+}
+
+.btn2 {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #c5fcfc;
+  padding: 18px 14px;
+  justify-content: space-between;
+  border-radius: 20000px;
+  width: 171px;
+  transition: all ease 0.8s;
+  text-align: center;
+  color: #c5fcfc;
+  position: absolute;
+  right: 5%;
+}
+
+/* .btn2:hover {
+  height: 8.542vw;
+  width: 8.542vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 50px 10px #c5fcfc;
+  transition: all ease 0.8s;
+  background-color: #c5fcfc;
+  color: #1a1a1a;
+  filter: blur(10px);
+  border-radius: 50%;
+}
+
+.btn3:hover {
+  height: 8.542vw;
+  width: 8.542vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 50px 10px #c5fcfc;
+  transition: all ease 0.8s;
+  background-color: #c5fcfc;
+  color: #1a1a1a;
+  filter: blur(10px);
+  border-radius: 50%;
+}
+
+.btn4:hover {
+  height: 8.542vw;
+  width: 8.542vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 50px 10px #c5fcfc;
+  transition: all ease 0.8s;
+  background-color: #c5fcfc;
+  color: #1a1a1a;
+  filter: blur(10px);
+  border-radius: 50%;
+}
+
+.btn5:hover {
+  height: 8.542vw;
+  width: 8.542vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 50px 10px #c5fcfc;
+  transition: all ease 0.8s;
+  background-color: #c5fcfc;
+  color: #1a1a1a;
+  filter: blur(10px);
+  border-radius: 50%;
+}
+
+.btn6:hover {
+  height: 8.542vw;
+  width: 8.542vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 50px 10px #c5fcfc;
+  transition: all ease 0.8s;
+  background-color: #c5fcfc;
+  color: #1a1a1a;
+  filter: blur(10px);
+  border-radius: 50%;
+} */
+
+.page4 {
+  height: 92vh;
+  width: 100%;
+  background-color: #121315;
+  padding-top: 0.5rem;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+  position: relative;
+}
+
+.page4 .left h1 {
+  font-size: 5.167vw;
+  position: absolute;
+  top: 45%;
+}
+
+.page4 .left p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 57%;
+  font-size: 1.5vw;
+}
+
+.page4 .right img {
+  width: 50.031vw;
+  height: 34.698vw;
+  border-radius: 30px;
+  float: right;
+}
+
+.btn3 {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #c5fcfc;
+  padding: 18px 14px;
+  border-radius: 20000px;
+  width: 171px;
+  text-align: center;
+  color: #c5fcfc;
+  transition: all ease 0.8s;
+  position: absolute;
+  top: 40%;
+}
+
+.page5 {
+  height: 80vh;
+  width: 100%;
+  background-color: #121315;
+  padding-top: 0.5rem;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+  position: relative;
+}
+
+.page4 {
+  overflow-x: hidden;
+}
+
+.page5 {
+  overflow-x: hidden;
+}
+
+.page4 .right {
+  overflow: hidden;
+}
+
+.page5 .left img {
+  width: 50.031vw;
+  height: 34.698vw;
+  border-radius: 30px;
+  float: left;
+  position: absolute;
+  top: -28.7%;
+}
+
+.page5 .right p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
+  top: 27%;
+  left: 66%;
+  font-size: 1.5vw;
+}
+
+.page5 .right h1 {
+  font-size: 5.167vw;
+  position: absolute;
+  top: 14%;
+  left: 66%;
+}
+
+.page5 .right h1 {
+  padding-left: 11vw;
+}
+
+.page5 .right p {
+  padding-left: 11vw;
+}
+
+.page5 .right .btn4 {
+  margin-left: 11vw;
+}
+
+.btn4 {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #c5fcfc;
+  padding: 18px 14px;
+  border-radius: 20000px;
+  width: 171px;
+  text-align: center;
+  transition: all ease 0.8s;
+  color: #c5fcfc;
+  position: absolute;
+  top: 37%;
+  left: 66%;
+}
+
+#para {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.794vw;
+  padding-left: 5vw;
+  line-height: 1.2;
+}
+
+.ya p {
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.46vw;
+  line-height: 1.2;
+}
+
+.page6 {
+  height: 80vh;
+  width: 100%;
+  background-color: #121315;
+  padding-top: 0.5rem;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+  position: relative;
+}
+
+.page7 {
+  height: 45vh;
+  width: 100%;
+  background-color: #121315;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+  position: relative;
+}
+
+.btn6 {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid #c5fcfc;
+  padding: 18px 14px;
+  border-radius: 20000px;
+  width: 171px;
+  text-align: center;
+  color: #c5fcfc;
+  position: absolute;
+  transition: all ease 0.8s;
+  top: 39%;
+  left: 66%;
+}
+
+.page8 {
+  height: 150vh;
+  width: 100%;
+  background-color: #121315;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.cards-container .card {
+  height: 24.698vw;
+  width: 43.74vw;
+  background-color: #17181b;
+  border-radius: 30px;
+  padding-left: 3.9vw;
+  padding-top: 3vw;
+  position: relative;
+}
+
+#card1 {
+  background-color: #17181b;
+  transition: all ease 0.5s;
+}
+
+#card1:hover {
+  background-color: #c93202;
+  transition: all ease 0.7s;
+}
+
+#card2 {
+  background-color: #17181b;
+  transition: all ease 0.5s;
+  color: #fff;
+}
+
+#card2:hover {
+  color: #000;
+  background-color: #c8d1d1;
+  transition: all ease 0.7s;
+}
+
+#card2:hover .number {
+  color: #000;
+}
+
+#card2:hover .text {
+  color: #000;
+}
+
+#card3 {
+  background-color: #17181b;
+  transition: all ease 0.5s;
+  color: #fff;
+}
+
+#card3:hover {
+  color: #000;
+  background-color: #a1c9b8;
+  transition: all ease 0.7s;
+}
+
+#card3:hover .number {
+  color: #000;
+}
+
+#card3:hover .text {
+  color: #000;
+}
+
+#card4 {
+  background-color: #17181b;
+  transition: all ease 0.5s;
+  color: #fff;
+}
+
+#card4:hover {
+  color: #000;
+  background-color: #decf3e;
+  transition: all ease 0.7s;
+}
+
+#card4:hover .number {
+  color: #000;
+}
+
+#card4:hover .text {
+  color: #000;
+}
+
+.cards-container .card .number {
+  font-size: 7.998vw;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -8px;
+}
+
+.cards-container .card .text {
+  font-size: 2.679vw;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  margin-left: 50%;
+  text-align: right;
+}
+
+#card1 .text {
+  margin-right: 3vw;
+}
+
+.page8 .cards-container .card #card1:hover {
+  background-color: #c93202;
+}
+
+#card4 {
+  margin-top: 2vw;
+}
+
+.cards-container .left {
+  float: left;
+}
+
+.cards-container .right {
+  float: right;
+}
+
+#card3 {
+  margin-top: 2vw;
+}
+
+.page9 {
+  height: 175vh;
+  width: 100%;
+  background-color: #121315;
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.dai {
+  float: right;
+  font-size: 1.963vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.people-card {
+  height: 45.458vw;
+  width: 46.313vw;
+  border: 2.8px solid #cfcfcf;
+  border-radius: 30px;
+  transition: all ease 1s;
+}
+
+.people-card:hover {
+  background-color: #17181b;
+  border: 0px solid transparent;
+  transition: all ease 1s;
+}
+
+.swipe-card {
+  gap: 2vw;
+}
+
+.people-card .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30%;
+  align-items: center;
+}
+
+.people-card .center .name {
+  font-family: Arial, Helvetica, sans-serif, "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  font-size: 1.702vw;
+  letter-spacing: 0.8px;
+  padding-top: 0.6vw;
+}
+
+.people-card .center .pic img {
+  height: 10.052vw;
+  width: 10.052vw;
+  border-radius: 50%;
+  transition: all ease 0.8s;
+}
+
+.people-card .center .pic img:hover {
+  transform: scale(1.3) rotate(-15deg);
+  transition: all ease 0.8s;
+}
+
+.people-card .center .bio {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1vw;
+  padding-top: 0.5vw;
+}
+
+.people-card .center .special-btn {
+  font-family: Arial, Helvetica, sans-serif, "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  border: 2px solid transparent;
+  padding: 18px 14px;
+  border-radius: 20000px;
+  background-color: #eb0000;
+  width: 171px;
+  text-align: center;
+  color: #c5fcfc;
+}
+
+.btn:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.btn5:hover,
+.btn6:hover,
+.btn7:hover,
+.btn8:hover,
+.btn10:hover {
+  background-color: #c5fcfc;
+  color: #000;
+  box-shadow: 0 0 65px 10px #c5fcfc;
+}
+
+.page10 {
+  height: 70vh;
+  padding-top: 2vw;
+  width: 100%;
+  background-color: #121315;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#move {
+  display: flex;
+  overflow: hidden;
+}
+
+#move .marque h1 {
+  font-size: 10.333vw;
+  letter-spacing: -0.35vw;
+  font-weight: 500;
+}
+
+#move .marque {
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.page11 {
+  height: 400.4vh;
+  padding-top: 2vw;
+  width: 100%;
+  background-color: #121315;
+  position: relative;
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+  overflow-x: hidden;
+}
+
+.last-section {
+  height: 86vh;
+  padding-top: 2vw;
+  width: 100%;
+  background-color: #121315;
+  position: relative;
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+  overflow-x: hidden;
+}
+
+.page11 .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 17%;
+  position: absolute;
+  top: 5%;
+  left: 37%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.page11 .main .main-content .logo img {
+  width: 13.417vw;
+}
+
+.page11 .main .main-content .copy .line p {
+  padding-top: 0.26vw;
+  font-size: 1.863vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.page11 .main .main-content .btn {
+  margin-left: 7vw;
+}
+
+.page11 .left-img img {
+  height: 25.854vw;
+  object-fit: cover;
+  width: 44.063vw;
+  gap: 2rem;
+  border-radius: 30px;
+}
+
+.page11 .right-img img {
+  height: 25.854vw;
+  object-fit: cover;
+  width: 44.063vw;
+  gap: 2rem;
+  border-radius: 30px;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+}
+
+.right-img {
+  float: right;
+}
+
+#niche {
+  top: 15.2%;
+}
+
+#niche2 {
+  top: 29.5%;
+}
+
+.page11-bottom .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page11-bottom .heading h1 {
+  font-size: 9.33vw;
+  font-weight: normal;
+  line-height: 110px;
+}
+
+.social-point .packer {
+  justify-content: space-between;
+  padding-left: 22vw;
+  padding-right: 22vw;
+  transition: all ease 0.8s;
+}
+
+.social-point .packer:hover {
+  transform: scale(1.3);
+  transition: all ease 0.8s;
+}
+
+.social-point .packer:hover .icon {
+  transform: rotate(360deg);
+  transition: all ease 0.8s;
+}
+
+.social-point .packer:hover #linkedin {
+  opacity: 0;
+}
+
+.social-point hr {
+  width: 55%;
+}
+
+.social-point .packer .icon {
+  transition: all ease 0.8s;
+}
+
+.social-point .packer .name {
+  font-size: 3vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+footer h1 {
+  font-size: 9.938vw;
+  font-weight: 100;
+  line-height: 115px;
+  padding-left: 4.8rem;
+}
+
+.last-section .email h5,
+.last-section .phone h5,
+.last-section .skype h5,
+.last-section .email h1,
+.last-section .phone h1,
+.last-section .skype h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.last-section .email h5,
+.last-section .phone h5,
+.last-section .skype h5 {
+  font-size: 16px;
+}
+
+.last-section .email h1,
+.last-section .phone h1,
+.last-section .skype h1 {
+  font-weight: lighter;
+}
+
+.separate {
+  justify-content: space-between;
+}
+
+.last-section .skype h5 {
+  text-align: right;
+}
